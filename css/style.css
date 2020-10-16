@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f6f6f6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    background: url(../img/bg.png) center no-repeat;
+    
+}
+.main {
+    padding: 90px 0 50px;
+    width: 1170px;
+    margin: 0 auto;
+}
+h1 {
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+hr {
+    width: 45px;
+    border: 3px solid #dddbdb;
+    background-color: #dddbdb;
+}
+.text {
+    text-align: center;
+    font-size: 21px;
+    color: 3c3c3c;
+}
+.team {
+    font-size: 23px;
+    font-weight: 600;
+    color: black;
+}
+.position {
+    color: #646464;
+    font-size: 18px;
+}
+.cont, .front, .back {
+    width:265px;
+    height:265px;      
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.cont {
+    overflow:hidden;
+}
+.front, .back {
+    float:left;
+    transition: all 0.5s;
+}
+.cont:hover .front  {
+    margin-left:-265px;
+}
+.back {
+    margin-left:-530px;
+    background-color: #18b5dc;
+}
+.cont:hover .back {
+    margin-left:0;
+}
+ 
+.ico {
+    display: flex;
+    justify-content: space-between;
+    width: 135px;
+    margin: auto;
+    padding-top: 115px;
+}
+.ico-info {
+    width: 40px;
+    height: 40px;
+    background-color: #5ecbe7;
+    cursor: pointer;
+
+}
+.ico-info:hover {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -webkit-transition: all 0.6s ease-out;
+}
+.ico-block {
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+}
